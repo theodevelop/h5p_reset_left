@@ -39,14 +39,13 @@ Ouvrez une page avec un iframe H5P / vidéo sur Moodle (class h5p-iframe + left:
 - **Content script**
   Écoute un message, puis réapplique ```iframe.style.setProperty('left', '0px', 'important');```.
 
-  ## 🛠️ Développement
-  - **Conventions**
-    * Manifest v2.
-    * Pas de dépendances externes.
-  - **Outils**
-    * Utilisez [web-ext](https://github.com/mozilla/web-ext) pour recharger automatiquement :
-    ```web-ext run --source-dir .```
+## 🛠️ Développement
+- **Conventions**
+  * Manifest v2.
+  * Pas de dépendances externes.
+- **Outils**
+  * Utilisez [web-ext](https://github.com/mozilla/web-ext) pour recharger automatiquement :
+  ```web-ext run --source-dir .```
 
 ## 📄 Licence
-
 Ce projet est sous licence MIT. Consultez le fichier LICENSE.
