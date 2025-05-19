@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "H5P Reset Left",
+  "version": "1.0",
+  "description": "Réinitialise la propriété left des iframes H5P à 0px via un raccourci clavier",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "commands",
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "reset-h5p-left": {
+      "suggested_key": {
+        "default": "Alt+L",
+        "mac": "Command+L"
+      },
+      "description": "Met le left des iframes H5P à 0px"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
