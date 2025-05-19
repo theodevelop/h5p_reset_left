@@ -1,4 +1,4 @@
-# <image style="width: 40px; height: 40px;" href="icons/icon128.png"></image> H5P Reset Left
+# <image style="width: 40px; height: 40px;" href="/icons/icon128.png"></image> H5P Reset Left
 
 Une extension Firefox légère pour réinitialiser, via un raccourci clavier, la propriété left des iframes H5P à 0px.
 
